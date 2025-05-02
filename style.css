@@ -1,0 +1,38 @@
+
+body {
+  font-family: sans-serif;
+  background: #f5f5dc;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #8b7500;
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffdf00;
+}
+
+#standings, #betting-panel, #shark-chip-panel, #leaderboard {
+  margin-top: 20px;
+}
